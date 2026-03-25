@@ -1,5 +1,5 @@
 # Session 02 - Refresh Python basics
-# Goal : practice variables, lists, dictionaries, functions, loops, and .functions.
+# Goal : practice variables, lists, dictionaries, loops, and functions.
 
 sample_prices = [
     {"zone": "NO1", "date": "2026-03-20", "price_nok_kwh": 1.12},
