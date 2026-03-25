@@ -2,11 +2,11 @@
 # Goal : practice variables, lists, dictionaries, functions, loops, and .functions.
 
 sample_prices = [
-    {"zone": "NO1", "data": "2026-03-20", "price_nok_kwh": 1.12},
-    {"zone": "NO1", "data": "2026-03-21", "price_nok_kwh": 0.98},
-    {"zone": "NO2", "data": "2026-03-20", "price_nok_kwh": 1.34},
-    {"zone": "NO2", "data": "2026-03-21", "price_nok_kwh": 1.28},
-    {"zone": "NO5", "data": "2026-03-20", "price_nok_kwh": 0.77},
+    {"zone": "NO1", "date": "2026-03-20", "price_nok_kwh": 1.12},
+    {"zone": "NO1", "date": "2026-03-21", "price_nok_kwh": 0.98},
+    {"zone": "NO2", "date": "2026-03-20", "price_nok_kwh": 1.34},
+    {"zone": "NO2", "date": "2026-03-21", "price_nok_kwh": 1.28},
+    {"zone": "NO5", "date": "2026-03-20", "price_nok_kwh": 0.77},
     {"zone": "NO3", "date": "2026-03-21", "price_nok_kwh": 1.03},
 ]
 
