@@ -48,12 +48,11 @@ def summarize_prices(records):
 
 result = summarize_prices (sample_prices)
 
-print ("=== Session 02 Python Summary===")
-print (f"Number of records: {result['number_of_records']}")
-print (f"Average price: {result['average_price']} NOK/kWh")
-print (f"Highest price: {result['highest_price']} NOK/kWh in zone {result['highest_zone']}")
-print (f"Lowest price: {result['lowest_price']} NOK/kWh in zone {result['lowest_zone']}")
-print  (f"Total price: {result['average_price'] * result['number_of_records']} NOK")
-print (f"Total price : {(result['total_price'])} NOK")
-print ("Script finished successfully!")
+print("=== Session 02 Python Summary ===")
+print(f"Number of records: {result['number_of_records']}")
+print(f"Average price: {result['average_price']:.2f} NOK/kWh")
+print(f"Highest price: {result['highest_price']:.2f} NOK/kWh in zone {result['highest_zone']}")
+print(f"Lowest price: {result['lowest_price']:.2f} NOK/kWh in zone {result['lowest_zone']}")
+print(f"Total price: {result['total_price']:.2f} NOK")
+print("Script finished successfully!")
 
