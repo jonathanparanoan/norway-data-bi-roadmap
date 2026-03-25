@@ -34,3 +34,12 @@ Completed:
 
 Next:
 - Session 02: refresh Python basics
+
+### Session 02 -Refresh Python basics
+Completed :
+- created a python script using lists, dictionaries, loops, and functions
+- summarized sample electricity price records
+- printed clean console output
+
+output:
+- 'scripts/session02_python_basics.py'
